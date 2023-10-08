@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+.had{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  color: white;
+
+}
+.container{
+  background-color: rgb(70, 93, 220);
+  width: 100%;
+  min-height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:50px 8%
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 30px;
+
+}
+.gallery img{
+  width: 100%;
+  border-radius: 10px;
+  border-color: blueviolet;
+}
